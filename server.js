@@ -119,4 +119,5 @@ app.post('/photos', function (req, res) {
 	});
 });
 
-app.listen(process.env.C9_PORT);
+
+app.listen(process.env.PORT || process.env.C9_PORT);
